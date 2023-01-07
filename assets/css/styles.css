@@ -1,0 +1,193 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Section */
+.header{
+    height: 850px;
+    width: 100%;
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_elememts{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.header_text_box{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 500px;
+    height: 300px;
+}
+.header_text_box h2{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+    margin: 15px 0px;
+}
+.header_text_box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #ffffff;
+    margin: 25px 0px;
+}
+.header_button{
+    margin: 50px 0px;
+    text-align: right;
+}
+.h_button{
+    background-color: #ffffff;
+    border-radius: 5%;
+    border: none;
+    color: #005FAC;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* Assumption Section */
+.assumption{
+    margin: 100px 0px;
+}
+.assumption_image{
+    padding-left: 200px;
+}
+.assumption_box{
+    display: flex;
+}
+.assumption_text{
+    padding: 100px;
+}
+.assumption_text p{
+    color: rgb(121, 121, 121);
+    font: 14px;
+    font-weight: 100;
+}
+.assumption_dtxt{
+    padding-right: 200px;
+}
+.assumption_header{
+    padding: 10px 0px;
+}
+.assumption_header h2{
+    padding: 0px 0px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.assumption_details{
+    padding: 10px;
+}
+.assumption_checklist{
+    padding: 10px 0px;
+}
+.assumption_checklist i{
+    color: green;
+    padding: 5px;
+}
+/* Plans Section */
+.plans_header h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plans_elements{
+    display: flex;
+    padding: 20px 150px;
+}
+.plans_element_single{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.plans_element_single img{
+    margin: auto;
+    width: 50%;
+    padding: 10px 80px;
+
+}
+.plans_element_single h3{
+    font-weight: 800;
+    font-size: 25px;
+    color: #151414;
+    text-align: center;
+    margin: 10px 0px;
+}
+.plans_element_single h4{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #737272;
+    margin: 10px 0px;
+}
+.contact_elements{
+    margin: 100px;
+    padding: 10px;
+}
+.contact_elements_single{
+    background-image: url(../images/gradient1.png);
+}
+/* Footer Section */
+.footer{
+    background-color: #151414;
+}
+.footer_elements{
+    padding: 100px 150px;
+    display: flex;
+}
+.footer_elements_single{
+    padding: 0px 100px;
+}
+.footer_text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer_icon{
+    display: flex;
+    margin: 20px 0px;
+}
+.footer_icon_single{
+    margin-right: 10px;
+}
+.footer_form h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer_form .btn_field{
+    background-color: #151414;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer_form .btn_sub{
+    background-color: #005FAC;
+    border: none;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
